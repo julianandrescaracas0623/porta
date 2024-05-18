@@ -21,6 +21,7 @@ def index()->rx.Component:
             rx.divider(),
             footer(),
             spacing=Size.MEDIUM.value,
+             padding_x=EmSize.MEDIUM.value,
             padding_y=EmSize.BIG.value,
             max_width=MAX_WIDTH,
             width="100%"   

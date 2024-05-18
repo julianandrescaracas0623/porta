@@ -10,9 +10,11 @@ def card_detail()-> rx.Component:
                 src="favicon.ico",
                 height=IMAGE_HEIGHT,
                 width="100%",
+                object_fit="cover"
         ),
-             pb=Size.DEFAULT.value
+             pb=Size.SMALL.value
         ),
+        rx.text.strong("Titulo"),
         rx.text(
             "Description",
             size=Size.SMALL.value,
