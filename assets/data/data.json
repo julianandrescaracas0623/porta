@@ -1,0 +1,123 @@
+{
+    "avatar": "/favicon.ico",
+    "name": "nombre",
+    "title": "habilidad principal",
+    "location": "localizacion",
+    "media": {
+        "email": "email@gmail.com",
+        "cv": "/data/cv.pdf",
+        "github": "https://github.com",
+        "linkedin": "https://linkedin.com"
+    },
+    "about": "Descripcion",
+    "technologies": [
+        {
+            "icon": "",
+            "name": "Tecnologia"
+        },
+        {
+            "icon": "",
+            "name": "Tecnologia"
+        },
+        {
+            "icon": "",
+            "name": "Tecnologia"
+        },
+        {
+            "icon": "",
+            "name": "Tecnologia"
+        },
+        {
+            "icon": "",
+            "name": "Tecnologia"
+        },
+        {
+            "icon": "",
+            "name": "Tecnologia"
+        }
+    ],
+    "experience": [
+        {
+            "icon": "",
+            "title": "Titulo",
+            "subtitle": "Subtitulo",
+            "description": "Descripcion",
+            "date": "Años"
+        },
+        {
+            "icon": "",
+            "title": "Titulo",
+            "subtitle": "Subtitulo",
+            "description": "Descripcion",
+            "date": "Años"
+        },
+        {
+            "icon": "",
+            "title": "Titulo",
+            "subtitle": "Subtitulo",
+            "description": "Descripcion",
+            "date": "Años"
+        },
+        {
+            "icon": "",
+            "title": "Titulo",
+            "subtitle": "Subtitulo",
+            "description": "Descripcion",
+            "date": "Años"
+        }
+    ],
+    "projects": [
+        {
+            "icon": "",
+            "title": "Titulo",
+            "subtitle": "Subtitulo",
+            "description": "Descripcion",
+            "technologies": [
+                {
+                    "icon": "",
+                    "name": "Tecnologia"
+                },
+                {
+                    "icon": "",
+                    "name": "Tecnologia"
+                },
+                {
+                    "icon": "",
+                    "name": "Tecnologia"
+                }
+            ],
+            "image": "/favicon.ico",
+            "url": "",
+            "github": ""
+        },
+        {
+            "icon": "",
+            "title": "Titulo",
+            "subtitle": "Subtitulo",
+            "description": "Descripcion",
+            "technologies": [
+                {
+                    "icon": "",
+                    "name": "Tecnologia"
+                },
+                {
+                    "icon": "",
+                    "name": "Tecnologia"
+                }
+            ],
+            "image": "/favicon.ico",
+            "url": "",
+            "github": ""
+        }
+    ],
+    "training": [
+        {
+            "icon": "",
+            "title": "Titulo",
+            "subtitle": "Subtitulo",
+            "description": "Descripcion",
+            "date": "Años",
+            "certificate": ""
+        }
+    ]
+}
