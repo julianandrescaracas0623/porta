@@ -1,39 +1,39 @@
 {
     "avatar": "/favicon.ico",
-    "name": "nombre",
+    "name": "Julian Andres Caracas",
     "title": "habilidad principal",
-    "location": "localizacion",
+    "location": "Cartago-Valle Co",
     "media": {
-        "email": "email@gmail.com",
-        "cv": "/data/cv.pdf",
-        "github": "https://github.com",
-        "linkedin": "https://linkedin.com"
+        "email": "andrescaracas0623@gmail.com",
+        "cv": "data/CV practicante Julian Andres Caracas.pdf",
+        "github": "https://github.com/julianandrescaracas0623",
+        "linkedin": "https://www.linkedin.com/in/julian-andres-caracas-sanchez-23886b237/"
     },
     "about": "Descripcion",
     "technologies": [
         {
-            "icon": "",
-            "name": "Tecnologia"
+            "icon": "devicon-javascript-plain colored",
+            "name": "JavaScript"
         },
         {
-            "icon": "",
-            "name": "Tecnologia"
+            "icon": "devicon-nodejs-plain-wordmark colored",
+            "name": "NodeJs"
         },
         {
-            "icon": "",
-            "name": "Tecnologia"
+            "icon": "devicon-json-plain colored",
+            "name": "Json"
         },
         {
-            "icon": "",
-            "name": "Tecnologia"
+            "icon": "devicon-nodemon-plain colored",
+            "name": "Nodemon"
         },
         {
-            "icon": "",
-            "name": "Tecnologia"
+            "icon": "devicon-npm-original-wordmark colored",
+            "name": "npm"
         },
         {
-            "icon": "",
-            "name": "Tecnologia"
+            "icon": "devicon-html5-plain colored",
+            "name": "HTML"
         }
     ],
     "experience": [
@@ -118,6 +118,28 @@
             "description": "Descripcion",
             "date": "Años",
             "certificate": ""
+        }
+    ],
+    "extras": [
+        {
+            "url": "",
+            "image": "/favicon.ico",
+            "title": "Titulo",
+            "description": "Descripcion"
+        },
+        
+        {
+            "url": "",
+            "image": "/favicon.ico",
+            "title": "Titulo",
+            "description": "Descripcion"
+        },
+        
+        {
+            "url": "",
+            "image": "/favicon.ico",
+            "title": "Titulo",
+            "description": "Descripcion"
         }
     ]
 }
