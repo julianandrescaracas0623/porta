@@ -2,30 +2,50 @@ import reflex as rx
 from portafolio.components.icon import icon
 from portafolio.style.styles import EmSize, Size, IMAGE_HEIGHT
 from portafolio.components.icon_button import icon_button
+from portafolio.data import Info, Technology
 
-def info_detail() -> rx.Component:
-    # Define the badges
-    badges = [
-        rx.badge(f"Badge{index}", color_scheme="gray") for index in range(5)
-    ]
+def info_detail(info: Info) -> rx.Component:
+    # Define las badges condicionalmente
+    badges = []
+    if info.technologies:
+        badges = [
+            rx.badge(
+                rx.box(class_name=technology.icon),
+                technology.name,
+                color_scheme="gray"
+            )
+            for technology in info.technologies
+        ]
 
-    # Define the icon buttons
+    # Crear los icon buttons
     icon_buttons = rx.hstack(
-        icon_button("link", "url"),
-        icon_button("github", "url"),
+        rx.cond(
+            info.url != "",
+            icon_button(
+                "link",
+                info.url
+            )
+        ),
+        rx.cond(
+            info.github != "",
+            icon_button(
+                "github",
+                info.github
+            )
+        )
     )
 
-    # Define the text content
+    # Define el contenido de texto
     text_content = rx.vstack(
-        rx.text.strong("Titulo"),
-        rx.text("Subtitulo"),
+        rx.text.strong(info.title),
+        rx.text(info.subtitle),
         rx.text(
-            "Descripcion",
+            info.description,
             size=Size.SMALL.value,
             color_scheme="gray"
         ),
         rx.flex(
-            *badges,
+            *badges,  # type: ignore
             wrap="wrap",
             spacing=Size.SMALL.value,
         ),
@@ -34,22 +54,31 @@ def info_detail() -> rx.Component:
         width="100%"
     )
 
-    # Define the image
-    image = rx.image(
-        src="favicon.ico",
-        height=IMAGE_HEIGHT,
-        width="auto",
-        border_radius=EmSize.DEFAULT.value,
-        object_fit="cover"
+    # Define la imagen (condicionalmente)
+    image = rx.cond(
+        info.image != "",
+        rx.image(
+            src=info.image if info.image else "favicon.ico",
+            height=IMAGE_HEIGHT,
+            width="auto",
+            border_radius=EmSize.DEFAULT.value,
+            object_fit="cover"
+        )
     )
 
-    # Define the badge and icon button
+    # Define el badge y el icon button (condicionalmente)
     badge_icon_button = rx.vstack(
-        rx.badge("Años"),
-        icon_button(
-            "shield-check",
-            "url",
-            solid=True
+        rx.cond(
+            info.date != "",
+            rx.badge(info.date)
+        ),
+        rx.cond(
+            info.certificate != "",
+            icon_button(
+                "shield-check",
+                info.certificate,
+                solid=True
+            )
         ),
         spacing=Size.SMALL.value,
         align="end"
@@ -57,7 +86,7 @@ def info_detail() -> rx.Component:
 
     return rx.flex(
         rx.hstack(
-            icon("box-select"),
+            icon(info.icon),
             text_content,
             spacing=Size.DEFAULT.value,
             width="100%"

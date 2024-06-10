@@ -74,7 +74,7 @@ class Data:
         self.extras = [Extra.from_dict(info) for info in extras]
 
 # Cargar los datos del JSON y crear una instancia de Data
-with open("assets/data/data.json") as file:
+with open("assets/data/data.json", encoding="utf-8") as file:
     json_data = json.load(file)
 
 data = Data(**json_data)

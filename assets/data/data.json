@@ -38,28 +38,28 @@
     ],
     "experience": [
         {
-            "icon": "",
+            "icon": "box-select",
             "title": "Titulo",
             "subtitle": "Subtitulo",
             "description": "Descripcion",
             "date": "Años"
         },
         {
-            "icon": "",
+            "icon": "box-select",
             "title": "Titulo",
             "subtitle": "Subtitulo",
             "description": "Descripcion",
             "date": "Años"
         },
         {
-            "icon": "",
+            "icon": "box-select",
             "title": "Titulo",
             "subtitle": "Subtitulo",
             "description": "Descripcion",
             "date": "Años"
         },
         {
-            "icon": "",
+            "icon": "box-select",
             "title": "Titulo",
             "subtitle": "Subtitulo",
             "description": "Descripcion",
@@ -68,56 +68,57 @@
     ],
     "projects": [
         {
-            "icon": "",
+            "icon": "box-select",
             "title": "Titulo",
             "subtitle": "Subtitulo",
             "description": "Descripcion",
             "technologies": [
                 {
-                    "icon": "",
+                    "icon": "devicon-devicon-plain",
                     "name": "Tecnologia"
                 },
                 {
-                    "icon": "",
+                    "icon": "devicon-devicon-plain",
                     "name": "Tecnologia"
                 },
                 {
-                    "icon": "",
+                    "icon": "devicon-devicon-plain",
                     "name": "Tecnologia"
                 }
             ],
             "image": "/favicon.ico",
             "url": "",
-            "github": ""
+            "github": "https://github.com"
         },
+
         {
-            "icon": "",
+            "icon": "box-select",
             "title": "Titulo",
             "subtitle": "Subtitulo",
             "description": "Descripcion",
             "technologies": [
                 {
-                    "icon": "",
+                    "icon": "devicon-devicon-plain",
                     "name": "Tecnologia"
                 },
                 {
-                    "icon": "",
+                    "icon": "devicon-devicon-plain",
                     "name": "Tecnologia"
                 }
             ],
             "image": "/favicon.ico",
             "url": "",
-            "github": ""
+            "github": "https://github.com"
         }
     ],
     "training": [
         {
-            "icon": "",
+            "icon": "box-select",
             "title": "Titulo",
             "subtitle": "Subtitulo",
             "description": "Descripcion",
             "date": "Años",
-            "certificate": ""
+            "certificate": "https://google.com"
         }
     ],
     "extras": [
